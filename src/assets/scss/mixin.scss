@@ -1,0 +1,10 @@
+@mixin backfill($name) {
+	background-image: url("/img/#{$name}_fill.png");
+}
+
+@mixin backline($name) {
+	background-image: url("/img/#{$name}_line.png");
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	background-position: center;
+}
